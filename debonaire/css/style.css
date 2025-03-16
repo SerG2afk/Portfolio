@@ -350,7 +350,7 @@ body {
 ._watcher-view .hero__deco-item--one .hero__deco {
   -webkit-transform: scale(1) rotate(0);
   transform: scale(1) rotate(0);
-  transition: all 1.5s 1.2s
+  transition: all 1s .8s
 }
 .hero__deco-item--two {
   aspect-ratio: 239/278;
@@ -367,7 +367,7 @@ body {
 ._watcher-view .hero__deco-item--two .hero__deco {
   -webkit-transform: scale(1) rotate(0);
   transform: scale(1) rotate(0);
-  transition: all 1.5s 1s
+  transition: all 1s .8s
 }
 .hero__figure-item {
   position: absolute;
@@ -385,7 +385,7 @@ body {
 ._watcher-view .hero__figure {
   -webkit-transform: scale(1) rotate(0);
   transform: scale(1) rotate(0);
-  transition: all 1.5s 1.2s
+  transition: all .8s 1s
 }
 .hero__text {
   opacity: 0;
@@ -396,7 +396,7 @@ body {
   opacity: 1;
   -webkit-transform: translate(0,0);
   transform: translate(0,0);
-  transition: all 1s .5s
+  transition: all .8s .5s
 }
 .focused {
   position: relative;
@@ -442,7 +442,7 @@ body {
   stroke-dashoffset: 1500
 }
 .focused__decor-item._watcher-view {
-  transition: all 2s linear 1s;
+  transition: all 1.6s linear .8s;
   stroke-dashoffset: 0
 }
 .focused__decor-item--start {
@@ -737,7 +737,7 @@ body {
   ._watcher-view .hero__circle-image {
     -webkit-transform: translate(-4.0625rem,0) scale(1);
     transform: translate(-4.0625rem,0) scale(1);
-    transition: all 1s 1.5s
+    transition: all .8s .8s
   }
   .hero__text {
     max-width: 14.375rem;
@@ -816,7 +816,7 @@ body {
     stroke-dashoffset: 1800
   }
   .decor-love__line._watcher-view {
-    transition: all 1.5s linear 1s;
+    transition: all 1s linear 1s;
     stroke-dashoffset: 0
   }
   .decor-love__hair-item {
@@ -1223,7 +1223,7 @@ body {
   ._watcher-view .hero__circle-image {
     -webkit-transform: scale(1);
     transform: scale(1);
-    transition: all 1s 1.5s
+    transition: all .8s .8s
   }
   .hero__text {
     align-self: center
