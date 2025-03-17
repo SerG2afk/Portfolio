@@ -34,6 +34,13 @@
             return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
         }
     };
+    function addLoadedClass() {
+        window.addEventListener("load", (function() {
+            setTimeout((function() {
+                document.documentElement.classList.add("loaded");
+            }), 0);
+        }));
+    }
     function getHash() {
         if (location.hash) return location.hash.replace("#", "");
     }
@@ -337,8 +344,8 @@
                     behavior: "smooth"
                 });
             }
-            FLS(`[gotoBlock]: Юхуу...едем к ${targetBlock}`);
-        } else FLS(`[gotoBlock]: Ой ой..Такого блока нет на странице: ${targetBlock}`);
+            FLS(`[gotoBlock]: Юхуу...їдемо до ${targetBlock}`);
+        } else FLS(`[gotoBlock]: Йой... Такого блоку немає на сторінці: ${targetBlock}`);
     };
     function formFieldsInit(options = {
         viewPass: false,
@@ -4163,6 +4170,7 @@
     }), 0);
     window["FLS"] = true;
     isWebp();
+    addLoadedClass();
     menuInit();
     tabs();
     formFieldsInit({
