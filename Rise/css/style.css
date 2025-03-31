@@ -1228,6 +1228,11 @@ body {
     text-align: center
   }
 }
+@media (max-width:33em) {
+  .searvices__title {
+    max-width: 100%
+  }
+}
 @media (max-width:20em) {
   .button {
     padding-inline: 1.25rem
@@ -1571,6 +1576,11 @@ body {
 @media (max-width:47.99875em)and (any-hover:none) {
   .icon-menu {
     cursor: default
+  }
+}
+@media (max-width:40.1875em) {
+  .searvices__items {
+    grid-template-columns: repeat(auto-fit,minmax(min(15rem,100%),1fr))
   }
 }
 @media (max-width:29.99875em) {
