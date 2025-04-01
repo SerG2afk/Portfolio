@@ -4295,6 +4295,10 @@
                 1268: {
                     slidesPerView: 2.5,
                     spaceBetween: 30
+                },
+                1440: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 30
                 }
             },
             on: {}
