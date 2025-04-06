@@ -4230,27 +4230,27 @@
             breakpoints: {
                 310: {
                     slidesPerView: 1.2,
-                    spaceBetween: 10
+                    spaceBetween: 0
                 },
                 400: {
                     slidesPerView: 1.7,
-                    spaceBetween: 10
+                    spaceBetween: 0
                 },
                 490: {
                     slidesPerView: 2.2,
-                    spaceBetween: 5
+                    spaceBetween: 0
                 },
                 768: {
                     slidesPerView: 3,
-                    spaceBetween: 10
+                    spaceBetween: 0
                 },
                 1104: {
                     slidesPerView: 4.5,
-                    spaceBetween: 10
+                    spaceBetween: 0
                 },
                 1268: {
                     slidesPerView: 6,
-                    spaceBetween: 10
+                    spaceBetween: 0
                 }
             },
             on: {}
