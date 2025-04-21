@@ -323,6 +323,9 @@ body {
   justify-items: stretch;
   transition: all .3s
 }
+._header-scroll .header__container {
+  padding-block: .3125rem
+}
 .header__logo {
   position: relative;
   z-index: 2;
@@ -1172,7 +1175,7 @@ body {
   .text {
     font-size: 1rem
   }
-  .header {
+  .header__container {
     padding-block: 3.125rem
   }
   .header__logo {
@@ -1329,7 +1332,7 @@ body {
   .text {
     font-size: .75rem
   }
-  .header {
+  .header__container {
     padding-block: .625rem
   }
   .header__logo {
@@ -1774,7 +1777,7 @@ body {
   .text {
     font-size: clamp(.75rem ,.6687817259rem + .4060913706vw ,1rem)
   }
-  .header {
+  .header__container {
     padding-block: clamp(.625rem ,-.1871827411rem + 4.0609137056vw ,3.125rem)
   }
   .header__logo {
